@@ -50,14 +50,14 @@
 @media screen and (max-width:400px) {
     .container {
       display:grid;
-      width: 120vw;
+      width: 140vw;
     }
   }
 
 @media screen and (min-width: 400px) and (max-width:900px) {
     .container {
       display:grid;
-      width: 120vw;
+      width: 140vw;
 
       
     }
