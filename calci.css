@@ -2,13 +2,12 @@
     text-align: center;
     color: rgb(247, 178, 29);
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgb(77, 254, 89), 0 0 5px rgb(5, 94, 5);
+    text-shadow: 1px 1.5px 2px black, 0 0 25px rgb(22, 207, 35), 0 0 5px rgb(2, 72, 2);
     text-decoration: underline;
     text-decoration-color: rgb(17, 122, 42);
 }
 .container{
-    display:grid;
-    
+    display:grid;   
      background-color: rgb(81, 80, 83); 
      margin-left: 40%;
      height: 58vh;
@@ -47,3 +46,19 @@
     box-shadow: 2px 2px 2px 3px rgb(103, 101, 101);
 
 }
+
+@media screen and (max-width:400px) {
+    .container {
+      display:grid;
+      width: 100vw;
+    }
+  }
+
+@media screen and (min-width: 400px) and (max-width:900px) {
+    .container {
+      display:grid;
+      width: 100vw;
+
+      
+    }
+  }
